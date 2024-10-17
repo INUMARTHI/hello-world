@@ -84,9 +84,5 @@
 
     <script>
         function showAlert() {
-            alert('Hello Inumarthi! Your project is live on Tomcat!');
-        }
-    </script>
-</body>
-</html>
+            alert('Hello Inumarthi! Your project is
 
