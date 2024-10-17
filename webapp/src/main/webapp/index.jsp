@@ -3,87 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Inumarthi's Project</title>
+    <title>Inumarthi's Project</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            background: url('https://via.placeholder.com/1500x900') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-family: 'Arial', sans-serif;
-            overflow: hidden;
-            background: linear-gradient(120deg, #3498db, #8e44ad);
-            background-size: 400% 400%;
-            animation: gradientBG 10s ease infinite;
-        }
-
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        .container {
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
         h1 {
-            font-size: 3em;
-            color: #2c3e50;
+            font-size: 4em;
             text-transform: uppercase;
-            letter-spacing: 5px;
-            transition: color 0.3s ease, transform 0.3s ease;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+            color: #f39c12;
+            animation: fadeIn 2s ease;
         }
 
-        h1:hover {
-            color: #e74c3c;
-            transform: scale(1.1);
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        p {
-            font-size: 1.5em;
+        /* Quote Section */
+        .quote {
+            font-size: 1.8em;
             margin: 20px 0;
-            color: #34495e;
+            color: #ecf0f1;
+            font-style: italic;
+            animation: fadeInQuote 3s ease;
         }
 
+        @keyframes fadeInQuote {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        /* Image Gallery */
+        .gallery {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Button */
         button {
+            margin-top: 30px;
             padding: 15px 30px;
             font-size: 1.2em;
-            background-color: #2ecc71;
+            background-color: #e74c3c;
             color: white;
             border: none;
             border-radius: 8px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
         button:hover {
-            background-color: #27ae60;
+            background-color: #c0392b;
+            transform: scale(1.05);
         }
 
+        /* Footer */
         footer {
-            margin-top: 20px;
-            color: #888;
-            font-size: 0.9em;
+            position: absolute;
+            bottom: 10px;
+            color: #bdc3c7;
+            font-size: 0.8em;
+            text-align: center;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="overlay">
         <h1>Welcome to Inumarthi's Project</h1>
-        <p>This page has some cool effects and is deployed on a Tomcat server.</p>
-        <button onclick="showAlert()">Click for a Surprise</button>
-        <footer>&copy; 2024 Inumarthi</footer>
+        <p class="quote">"Let's do it today"</p>
+
+        <!-- Image Gallery -->
+        <div class="gallery">
+            <img src="https://via.placeholder.com/200x150/3498db" alt="Image 1">
+            <img src="https://via.placeholder.com/200x150/e74c3c" alt="Image 2">
+            <img src="https://via.placeholder.com/200x150/2ecc71" alt="Image 3">
+            <img src="https://via.placeholder.com/200x150/f1c40f" alt="Image 4">
+        </div>
+
+        <button onclick="showMessage()">Click for a Message</button>
     </div>
 
-    <script>
-        function showAlert() {
-            alert('Hello Inumarthi! Your project is
+    <footer>&copy; 2024 Inumarthi's Project</footer>
 
+    <script>
+        function showMessage() {
+            alert('Hello Inumarthi! Keep pushing forward and let\'s do it today!');
+        }
+    </script>
+</body>
+</html>
 
