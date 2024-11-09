@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inumarthi page of devops</title>
+    <title>Inumarthi page of Devops</title>
     <style>
         body {
             margin: 0;
@@ -110,8 +110,8 @@
 </head>
 <body>
     <div class="overlay">
-        <h1>Welcome to Inumarthi's Project</h1>
-        <p class="quote">"Let's do it today"</p>
+        <h1>Welcome to Inumarthi Page Of DevOps</h1>
+        <p class="quote">"Its never too late to do anything"</p>
 
         <!-- Image Gallery -->
         <div class="gallery">
