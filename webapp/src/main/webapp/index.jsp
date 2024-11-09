@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inumarthi's Project</title>
+    <title>Inumarthi page of devops</title>
     <style>
         body {
             margin: 0;
@@ -115,10 +115,10 @@
 
         <!-- Image Gallery -->
         <div class="gallery">
-            <img src="https://via.placeholder.com/200x150/3498db" alt="Image 1">
-            <img src="https://via.placeholder.com/200x150/e74c3c" alt="Image 2">
-            <img src="https://via.placeholder.com/200x150/2ecc71" alt="Image 3">
-            <img src="https://via.placeholder.com/200x150/f1c40f" alt="Image 4">
+            <img src="https://www.atatus.com/glossary/content/images/2022/09/Kubernetes.jpeg>
+            <img src="https://blog-assets.spot.io/app/uploads/2018/05/23151904/k8t_new.jpg>
+            <img src="https://images.clickittech.com/2020/wp-content/uploads/2022/04/13202311/Diagram-52-1536x1203.jpg>
+	    <img src="https://images.ctfassets.net/ud9dfq0vudar/1DMXDL2oMnWPcJWr7MM6IW/469dbfa5f46b1401305c10115701fb20/Architecture_1.png?w=1366&h=771&q=50&fm=png>
         </div>
 
         <button onclick="showMessage()">Click for a Message</button>
@@ -128,7 +128,7 @@
 
     <script>
         function showMessage() {
-            alert('Hello Inumarthi! Keep pushing forward and let\'s do it today!');
+            alert('Hello homosepian ! Keep pushing forward and let\'s do it today!');
         }
     </script>
 </body>
