@@ -69,7 +69,7 @@
             width: 200px;
             height: 150px;
             object-fit: cover;
-            border-radius: 10px;
+OBOBOB            border-radius: 10px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
         }
@@ -90,7 +90,7 @@
             border-radius: 8px;
             cursor: pointer;
             transition: background-color 0.3s ease, transform 0.3s ease;
-        }
+OBOBOB        }
 
         button:hover {
             background-color: #c0392b;
@@ -100,7 +100,7 @@
         /* Footer */
         footer {
             position: absolute;
-            bottom: 10px;
+OBOBOB            bottom: 10px;
             color: #bdc3c7;
             font-size: 0.8em;
             text-align: center;
@@ -108,14 +108,14 @@
         }
     </style>
 </head>
-<body>
+OBOBOB<body>
     <div class="overlay">
         <h1>Welcome to Inumarthi Page Of DevOps</h1>
         <p class="quote">"Its never too late to do anything"</p>
-
+OBOBOB
         <!-- Image Gallery -->
         <div class="gallery">
-            <img src="https://www.atatus.com/glossary/content/images/2022/09/Kubernetes.jpeg>
+OBOBOB            <img src="https://www.atatus.com/glossary/content/images/2022/09/Kubernetes.jpeg>
             <img src="https://blog-assets.spot.io/app/uploads/2018/05/23151904/k8t_new.jpg>
             <img src="https://images.clickittech.com/2020/wp-content/uploads/2022/04/13202311/Diagram-52-1536x1203.jpg>
 	    <img src="https://images.ctfassets.net/ud9dfq0vudar/1DMXDL2oMnWPcJWr7MM6IW/469dbfa5f46b1401305c10115701fb20/Architecture_1.png?w=1366&h=771&q=50&fm=png>
@@ -133,4 +133,5 @@
     </script>
 </body>
 </html>
+
 
