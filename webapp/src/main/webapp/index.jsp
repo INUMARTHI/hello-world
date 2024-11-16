@@ -128,7 +128,7 @@
 
     <script>
         function showMessage() {
-            alert('Hello homosepian !!!! Keep pushing forward and let's do it today! i did it');
+            alert('Hello homosepian, Keep pushing forward and let's do it today! i did it');
         }
     </script>
 </body>
